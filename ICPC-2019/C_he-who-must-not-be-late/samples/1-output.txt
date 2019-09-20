@@ -1,0 +1,21 @@
+Case 1: 12
+0h 40m
+1h 45m
+2h 50m
+3h 56m
+5h 1m
+6h 7m
+7h 12m
+8h 18m
+9h 23m
+10h 29m
+11h 34m
+12h 40m
+Case 2: 7
+0h 7m
+1h 12m
+2h 18m
+3h 23m
+4h 29m
+5h 34m
+6h 40m
