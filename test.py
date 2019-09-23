@@ -1,1 +1,2 @@
-includ 
+a = input()
+print(a)
