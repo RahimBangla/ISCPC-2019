@@ -1,3 +1,5 @@
+# Question_link:  https://toph.co/p/laser-light?statement=bn_bd
+
 i=int(input());
 list1=[]
 list2=[]
@@ -10,12 +12,8 @@ result = []
 item = len(list1)
 for i in range(item):
     result.append(list1[i]/list2[i])
-counter=0
-n=0
-while len(result)>=n:
-	if (result[n]==result[n+1]):
-		counter+=1
-		n+=1
-	else:
-		break
-print(counter+1)
+rset=list(set(result))
+for ext in rset:
+	result.remove(ext)
+print(len(result)+1)
+
