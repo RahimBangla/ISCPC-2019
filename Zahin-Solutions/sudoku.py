@@ -67,9 +67,9 @@ game3[7]=g[3]+g[4]+g[5]+h[3]+h[4]+h[5]+i[3]+i[4]+i[5]
 game3[8]=g[6]+g[7]+g[8]+h[6]+h[7]+h[8]+i[6]+i[7]+i[8]
 
 for n in range(8):
-	if game1[n] == list(set(game1[n])):
-		if game2[n] == list(set(game2[n])):
-			if game3[n] == list(set(game3[n])):
+	if game1[n].sort() == list(set(game1[n])).sort():
+		if game2[n].sort() == list(set(game2[n])).sort():
+			if game3[n].sort() == list(set(game3[n])).sort():
 				print('Congratulations!')
 			else:
 				print('Oh No!')
