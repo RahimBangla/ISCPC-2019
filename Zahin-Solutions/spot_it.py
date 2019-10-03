@@ -10,5 +10,5 @@ while t > i:
 for x in range(t):
 	print(a[x]+1)
 
-# result: 
+# result: wrong answer in second case
     
