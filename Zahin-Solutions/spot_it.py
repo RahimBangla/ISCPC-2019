@@ -1,3 +1,4 @@
+# wrong question
 # Question_link:  https://toph.co/p/spot-it
 
 t = int(input())
@@ -10,5 +11,4 @@ while t > i:
 for x in range(t):
 	print(a[x]+1)
 
-# result: wrong answer in second case
-    
+# result: wrong answer
