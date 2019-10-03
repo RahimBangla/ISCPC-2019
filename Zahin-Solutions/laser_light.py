@@ -18,4 +18,3 @@ for ext in rset:
 print(len(result)+1)
 
 # result: runtime error
-
