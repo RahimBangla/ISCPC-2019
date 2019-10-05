@@ -3,7 +3,12 @@
 #include <math.h>
 int main()
 {
-    char str1[100] = "2 3 2";
+    int ind = 0;
+    scanf("%d", &ind);
+    while (ind>0){
+
+    
+    char str1[100];
     char newString[10][10];
     int i, j, ctr;
     fgets(str1, sizeof str1, stdin);
@@ -23,7 +28,6 @@ int main()
             j++;
         }
     }
-    int ind = 0;
     int z = 0;
     int a = atoi(newString[0]);
     int r = atoi(newString[1]);
@@ -36,6 +40,7 @@ int main()
     };
 
     printf("%d", z);
+    };
 
     return 0;
 }
