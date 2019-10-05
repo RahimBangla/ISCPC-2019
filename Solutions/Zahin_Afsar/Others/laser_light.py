@@ -1,6 +1,7 @@
 # Question_link:  https://toph.co/p/laser-light?statement=bn_bd
 
-i=int(input());
+
+i=int(input())
 list1=[]
 list2=[]
 while i>0:

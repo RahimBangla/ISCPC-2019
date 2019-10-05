@@ -1,0 +1,6 @@
+5
+Monday Wednesday Tuesday Sunday
+Saturday Saturday Monday Sunday
+Friday Sunday Friday Sunday
+Monday Thursday Wednesday Saturday
+Thursday Saturday Wednesday Wednesday
