@@ -4,13 +4,14 @@ t = int(input())
 i=0
 while t > i:
 	a=int(input())
-	while isinstance((a**0.5), float):
-		if len(a) == "":
+    b=0
+	while int(a**0.5)!=(a**0.5):
+		if a == 0:
 			break
 		else:
-			a = int(str(a)[:-1])
-			print(a)
-	
+			a = int(a/10)
+            b=b+1
+	print(b)
 	i=i+1
 
 # result: still working...........
