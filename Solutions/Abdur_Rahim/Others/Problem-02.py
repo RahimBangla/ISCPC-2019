@@ -1,1 +1,1 @@
-
+Print(input())
